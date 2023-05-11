@@ -5,3 +5,4 @@ class Player(pygame.sprite.Sprite):
         self.image = pygame.Surface([width, height])
         self.image.fill(color)
         self.rect = self.image.get_rect
+        self.health = 100

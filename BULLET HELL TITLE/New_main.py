@@ -1,4 +1,4 @@
-import pygame, sys, random
+import pygame, sys, New_Player
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 RED = (255, 0, 0)
@@ -18,7 +18,6 @@ pygame.display.set_caption("My Game")
 # Loops
 pause = False
 done = False
-
 
 clock = pygame.time.Clock()
 
