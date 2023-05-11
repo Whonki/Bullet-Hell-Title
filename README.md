@@ -3,9 +3,11 @@
   <summary>FEATURES</summary>
   
 - Multitudes of bosses
-- Friend-ship oriented dating-sim experience
+- Friendship-oriented dating-sim experience! Make friends along the way with FOUR DIFFERENT PEOPLE! (Maybe a fifth?)
 - BULLET HELL GO BRRR
 - Extremely cheesy storyline
+- A blood bath, killing friends you made, one by one until you're alone in a world where god died.
+- **IT'S SO F!%#@ING PINK!!!!!**
 - Art made by: 
   - ___
   - ___
@@ -15,37 +17,20 @@
 <details>
 <summary>INSPIRAITONS</summary>
 
-- Multitudes of bosses
-- Friend-ship oriented dating-sim experience
-- BULLET HELL GO BRRR
-- Extremely cheesy storyline
-- Art made by: 
-  - ___
-  - ___
-  - ___
+- This game takes inspiration from a multitude of games: 
+  - The Binding of Isaac
+  - Enter the Gungeon
+  - OMORI
+  - and partially from Doki Doki Literature Club.
 </details>
 <details>
 <summary>PURPOSE</summary>
 
-- Multitudes of bosses
-- Friend-ship oriented dating-sim experience
-- BULLET HELL GO BRRR
-- Extremely cheesy storyline
-- Art made by: 
-  - ___
-  - ___
-  - ___
+- This game was made for my Computer Science 20-1 final project worth **TWO ENTIRE CREDITS.**
     
 </details>
 <details>
 <summary>BORROWED CODE FROM</summary>
   
-- Multitudes of bosses
-- Friend-ship oriented dating-sim experience
-- BULLET HELL GO BRRR
-- Extremely cheesy storyline
-- Art made by: 
-  - ___
-  - ___
-  - ___
+- Pending.
 </details>
