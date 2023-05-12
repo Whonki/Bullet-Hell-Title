@@ -40,3 +40,10 @@
   
 - Pending.
 </details>
+<details>
+<summary>TO DO LIST</summary>
+- Make ONE functional Boss
+- make FOUR different NPC's
+- Make a shop for each NPC's
+- GUNS. SWORDS. GUN-SWORDS.
+</details>
