@@ -1,13 +1,3 @@
-"""
- Show how to fire bullets.
- #Using to understand and use
- Sample Python/Pygame Programs
- Simpson College Computer Science
- http://programarcadegames.com/
- http://simpson.edu/computer-science/
- 
- Explanation video: http://youtu.be/PpdJjaiLX6A
-"""
 import pygame
 import random
  
@@ -126,7 +116,7 @@ while not done:
         if event.type == pygame.QUIT:
             done = True
  
-        elif event.type == pygame.MOUSEBUTTONDOWN:
+        if event.type == pygame.K_w:
             # Fire a bullet if the user clicks the mouse button
             bullet = Bullet()
             # Set the bullet so it is where the player is
