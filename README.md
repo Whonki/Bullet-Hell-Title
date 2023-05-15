@@ -1,6 +1,6 @@
 # The Witherhorde's Interdimensional Emporium
 <details>
-  <summary>**FEATURES**</summary>
+  <summary>FEATURES</summary>
   
 - Multitudes of bosses
 - ***WIP*** Friendship-oriented dating-sim experience! Make friends along the way with FOUR DIFFERENT PEOPLE! (Maybe a fifth?) 
@@ -19,7 +19,7 @@
 
 </details>
 <details>
-<summary>**INSPIRAITONS**</summary>
+<summary>INSPIRAITONS</summary>
 
 - This game takes inspiration from a multitude of games: 
   - The Binding of Isaac
@@ -29,15 +29,16 @@
   - and partially from Doki Doki Literature Club.
 </details>
 <details>
-<summary>**PURPOSE**</summary>
+<summary>PURPOSE</summary>
 
 - This game was made for my Computer Science 20-1 final project worth **TWO ENTIRE CREDITS.**
     
 </details>
 <details>
-<summary>**BORROWED CODE FROM**</summary>
+<summary>BORROWED CODE FROM</summary>
   
 - [Health System](http://www.codingwithruss.com/pygame/how-to-create-a-health-bar-in-pygame/)
-- [Bullets](http://programarcadegames.com/python_examples/f.php?file=bullets.py)
+- [Bullets]()
 - [Collision](http://www.codingwithruss.com/pygame/how-to-use-pygame-masks-for-pixel-perfect-collision/) and [Other Collision](http://www.codingwithruss.com/pygame/top-3-collision-types-in-pygame/)
+- []()
 </details>
