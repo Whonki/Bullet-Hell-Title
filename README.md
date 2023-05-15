@@ -14,9 +14,8 @@
 - A blood bath, killing friends you made, one by one until you're alone in a world where god died.
 - **IT'S SO F!%#@ING PINK!!!!!**
 - Art made by: 
-  - ___
-  - ___
-  - ___
+  - Me.
+  - I don't know who else because everyone else is busy :o(
 
 </details>
 <details>
@@ -38,12 +37,7 @@
 <details>
 <summary>BORROWED CODE FROM</summary>
   
-- Pending.
-</details>
-<details>
-<summary>TO DO LIST</summary>
-- Make ONE functional Boss
-- make FOUR different NPCs
-- Make a shop for each NPCs
-- GUNS. SWORDS. GUN-SWORDS.
+- [Health System](http://www.codingwithruss.com/pygame/how-to-create-a-health-bar-in-pygame/)
+- [Bullets](http://programarcadegames.com/python_examples/f.php?file=bullets.py)
+- [Collision](http://www.codingwithruss.com/pygame/how-to-use-pygame-masks-for-pixel-perfect-collision/) and [Other Collision](http://www.codingwithruss.com/pygame/top-3-collision-types-in-pygame/)
 </details>

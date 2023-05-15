@@ -116,7 +116,7 @@ while not done:
         if event.type == pygame.QUIT:
             done = True
  
-        if event.type == pygame.K_w:
+        if event.type == pygame.MOUSEBUTTONDOWN:
             # Fire a bullet if the user clicks the mouse button
             bullet = Bullet()
             # Set the bullet so it is where the player is
