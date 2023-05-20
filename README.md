@@ -1,12 +1,14 @@
 # The Witherhorde's Interdimensional Emporium
 <details>
 <summary>DEV NOTES (2023,05,19)</summary>
+  
 - I FINALLY MADE A COLLISION HD SYSTEM FOR THE ARMS AHA!!!!!!! (I'm losing my mind lol)
 - Music is added to the Boss Fight
 - No NPCs yet :o(
 - ***TEMPORARY*** CUTTING CORNERS WITH HEALTH SYSTEM. (NUMBER SYSTEM RATHER THAN A HEALTH BAR)
-- WITHERHORDE BOSS SPRITES ARE POPPING UP BIT BY BIT!!!!
+- WITHERHORDE BOSS SPRITES ARE POPPING UP BIT BY BIT!!!! (YIPEE)
 </details>
+
 <details>
 <summary>FEATURES</summary>  
 - Multitudes of bosses
