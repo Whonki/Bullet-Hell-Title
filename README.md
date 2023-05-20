@@ -6,6 +6,8 @@
   - No NPCs yet :o(
   - ***TEMPORARY*** CUTTING CORNERS WITH HEALTH SYSTEM. (NUMBER SYSTEM RATHER THAN A HEALTH BAR)
   - WITHERHORDE BOSS SPRITES ARE POPPING UP BIT BY BIT!!!!
+</details>
+<details>
 <summary>FEATURES</summary>  
 - Multitudes of bosses
 - ***WIP*** Friendship-oriented dating-sim experience! Make friends along the way with FOUR DIFFERENT PEOPLE! (Maybe a fifth?) 
