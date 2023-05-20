@@ -135,14 +135,18 @@ while not done:
     for bullet in bullet_list:
  
         # See if it hit a block
-        block_hit_list = pygame.sprite.spritecollide(bullet, block_list, True)
+        block_hit_list = pygame.sprite.spritecollide(bullet, block_list, False)
  
         # For each block hit, remove the bullet and add to the score
         for block in block_hit_list:
+            block_hit_list = pygame.sprite.spritecollide(bullet, block_list, False)
             bullet_list.remove(bullet)
             all_sprites_list.remove(bullet)
             score += 1
             print(score)
+            if score == 10:
+                block_hit_list = pygame.sprite.spritecollide(bullet, block_list, True)
+                score = 0
  
         # Remove the bullet if it flies up off the screen
         if bullet.rect.y < -10:
