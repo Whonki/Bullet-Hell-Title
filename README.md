@@ -1,11 +1,19 @@
 # The Witherhorde's Interdimensional Emporium
 <details>
-  <h1>DEV NOTES (2023,05,19)</h1>
-  - I FINALLY MADE A COLLISION HD SYSTEM FOR THE ARMS AHA!!!!!!! (I'm losing my mind lol)
-  - Music is added to the Boss Fight
-  - No NPCs yet :o(
-  - ***TEMPORARY*** CUTTING CORNERS WITH HEALTH SYSTEM. (NUMBER SYSTEM RATHER THAN A HEALTH BAR)
-  - WITHERHORDE BOSS SPRITES ARE POPPING UP BIT BY BIT!!!!
+  <summary>DEV NOTES</summary>
+  # 2023,05,22
+- I FINALLY MADE A SHOOTING MECHANIC THAT WORKS!
+  - Don't ask me where I was in April 17th of 1976
+- Arm collision for boss works!
+- Health is slowly coming along but it's making me wanna cry fr
+- Still no NPCs.
+  # 2023,05,19
+- I FINALLY MADE A COLLISION HD SYSTEM FOR THE ARMS AHA!!!!!!! (I'm losing my mind lol)
+- Music is added to the Boss Fight
+- No NPCs yet :o(
+- ***TEMPORARY*** CUTTING CORNERS WITH HEALTH SYSTEM. (NUMBER SYSTEM RATHER THAN A HEALTH BAR)
+- WITHERHORDE BOSS SPRITES ARE POPPING UP BIT BY BIT!!!! (YIPEE)
+</details>
   <summary>FEATURES</summary>
   
 - Multitudes of bosses
