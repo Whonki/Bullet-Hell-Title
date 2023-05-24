@@ -1,16 +1,21 @@
 # The Witherhorde's Interdimensional Emporium
 <details>
-<summary>DEV NOTES (2023,05,19)</summary>
+<summary>DEV NOTES</summary>
   
+# 2023/05/22
+- Bullet mechanic added
+- Will refine later
+- Boss Arms are finally added and their hitboxes work ingame!
+# 2023/05/19
 - I FINALLY MADE A COLLISION HD SYSTEM FOR THE ARMS AHA!!!!!!! (I'm losing my mind lol)
 - Music is added to the Boss Fight
 - No NPCs yet :o(
 - ***TEMPORARY*** CUTTING CORNERS WITH HEALTH SYSTEM. (NUMBER SYSTEM RATHER THAN A HEALTH BAR)
 - WITHERHORDE BOSS SPRITES ARE POPPING UP BIT BY BIT!!!! (YIPEE)
 </details>
-
 <details>
 <summary>FEATURES</summary>  
+  
 - Multitudes of bosses
 - ***WIP*** Friendship-oriented dating-sim experience! Make friends along the way with FOUR DIFFERENT PEOPLE! (Maybe a fifth?) 
   - BUY NEW WEAPONS FROM FRIENDS YOU MAKE ALONG THE WAY!
