@@ -1,21 +1,27 @@
 # The Witherhorde's Interdimensional Emporium
 <details>
-  <summary>DEV NOTES</summary>
-  # 2023,05,22
-- I FINALLY MADE A SHOOTING MECHANIC THAT WORKS!
-  - Don't ask me where I was in April 17th of 1976
-- Arm collision for boss works!
-- Health is slowly coming along but it's making me wanna cry fr
-- Still no NPCs.
-  # 2023,05,19
-- I FINALLY MADE A COLLISION HD SYSTEM FOR THE ARMS AHA!!!!!!! (I'm losing my mind lol)
+<summary>DEV NOTES</summary>
+
+# 2023,05,25
+- Bullets work as expected > Arm Collision works as expected :o)
+- BG Music Changed: Euthanasia by Will Wood > Tsuki no Waltz by Mio Isayama
+- Now working on Health and then Boss-Attack Patterns :o))
+- Files organized! Less spaghetti code and more organized 
+# 2023,05,22
+- Bullet mechanic added
+  - Will refine later
+- Boss Arms are finally added and their hitboxes work ingame!
+# 2023,05,19
+- I FINALLY MADE A COLLISION SYSTEM FOR THE ARMS AHA!!!!!!! (I'm losing my mind lol)
 - Music is added to the Boss Fight
 - No NPCs yet :o(
 - ***TEMPORARY*** CUTTING CORNERS WITH HEALTH SYSTEM. (NUMBER SYSTEM RATHER THAN A HEALTH BAR)
 - WITHERHORDE BOSS SPRITES ARE POPPING UP BIT BY BIT!!!! (YIPEE)
 </details>
-  <summary>FEATURES</summary>
-  
+
+<details>
+<summary>FEATURES</summary>  
+
 - Multitudes of bosses
 - ***WIP*** Friendship-oriented dating-sim experience! Make friends along the way with FOUR DIFFERENT PEOPLE! (Maybe a fifth?) 
   - BUY NEW WEAPONS FROM FRIENDS YOU MAKE ALONG THE WAY!
@@ -52,7 +58,7 @@
 <summary>BORROWED CODE FROM</summary>
   
 - [Health System](http://www.codingwithruss.com/pygame/how-to-create-a-health-bar-in-pygame/)
-- [Bullets]()
-- [Collision](http://www.codingwithruss.com/pygame/how-to-use-pygame-masks-for-pixel-perfect-collision/) and [Other Collision](http://www.codingwithruss.com/pygame/top-3-collision-types-in-pygame/)
+- [Bullets](http://programarcadegames.com/python_examples/f.php?file=bullets_aimed.py)
+- [Collision](http://www.codingwithruss.com/pygame/how-to-use-pygame-masks-for-pixel-perfect-collision/)
 - []()
 </details>
