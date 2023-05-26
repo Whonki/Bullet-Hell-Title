@@ -198,6 +198,7 @@ while not done:
             if score == 10:
                 block_hit_list = pygame.sprite.spritecollide(bullet, block_list, True)
                 score = 0
+        #Figure out how to make a functioning health for arms, make them hit 10 times then disappear. 
         
  
         # Remove the bullet if it flies up off the screen
