@@ -20,6 +20,7 @@
 
 <details>
 <summary>FEATURES</summary>  
+  
 - Multitudes of bosses
 - ***WIP*** Friendship-oriented dating-sim experience! Make friends along the way with FOUR DIFFERENT PEOPLE! (Maybe a fifth?) 
   - BUY NEW WEAPONS FROM FRIENDS YOU MAKE ALONG THE WAY!
