@@ -30,7 +30,6 @@ Background = pygame.mixer.Sound("Music-Tsuki no Waltz.ogg")
 Background.play(-1)
 
 #Bosses
-
 Witherhorde = boss.Hitbox(GREEN, 300, 240)
 Witherhorde.x = 790
 Witherhorde.y = 190
@@ -91,6 +90,12 @@ while not done:
 			#Shooting
 			if event.key == pygame.K_ESCAPE:
 				quit()
+			if event.key == pygame.K_UP:
+				Health.sprite.get_health()
+				Boss_Health.sprite.get_health(200)
+			if event.key == pygame.K_DOWN:
+				Health.sprite.get_damage()
+				Boss_Health.sprite.get_damage(200)
 		if event.type == pygame.MOUSEBUTTONDOWN:
 			pos = pygame.mouse.get_pos() 
 			mouse_x = pos[0]
@@ -134,8 +139,6 @@ while not done:
 			if Boss_Hits == 20:
 				block_hit_list = pygame.sprite.spritecollide(Bullet, arms_sprites, True)
 				Boss_Hits = 0
-
-				Arms = 0
  
         # Remove the Bullet if it flies up off the screen
 			if Bullet.rect.y < -10 or Bullet.rect.x < -10 or Bullet.rect.x > 1920 or Bullet.rect.y > 1080:
@@ -145,13 +148,6 @@ while not done:
 # --- Game logic should go her
 	screen.fill(BLACK)
 	#Boss + Player Health GUI.
-	Health_image = pygame.image.load("HP_Icons.png").convert_alpha()
-	Health_image = pygame.transform.scale(Health_image,(300,54))
-	screen.blit(Health_image,[200,375])
-	"""Boss_image = pygame.image.load("BOSS HP.png").convert_alpha()
-	Boss_image = pygame.transforml.scale(Boss_image,(100,840))
-	Boss_image.set_colorkey(PINK)
-	screen.blit(Boss_image,[1630,125])"""
 	#Actual Health
 	pygame.draw.rect(screen,WHITE,(410,430, 1220,520),6)
 	all_sprites.draw(screen) 

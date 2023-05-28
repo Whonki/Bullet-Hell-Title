@@ -8,6 +8,16 @@
 - ***TEMPORARY*** CUTTING CORNERS WITH HEALTH SYSTEM. (NUMBER SYSTEM RATHER THAN A HEALTH BAR)
 - WITHERHORDE BOSS SPRITES ARE POPPING UP BIT BY BIT!!!! (YIPEE)
 </details>
+
+<details>
+<summary>OH GOD HOW DO I DOWNLOAD THIS???</summary>
+
+- It's a pygame file so downloading it and opening a .exe file won't work!
+- Gotta be asking yourself, "How do I Download this?"
+
+
+</details>
+
 <details>
 <summary>FEATURES</summary>  
 - Multitudes of bosses
@@ -45,7 +55,7 @@
 <details>
 <summary>BORROWED CODE FROM</summary>
   
-- [Health System](http://www.codingwithruss.com/pygame/how-to-create-a-health-bar-in-pygame/)
+- [Health System](https://github.com/clear-code-projects/ZeldaHearts/blob/master/hearts_progress.py), and [other health](https://www.codepile.net/pile/XydlGQy1)
 - [Bullets](http://programarcadegames.com/python_examples/f.php?file=bullets_aimed.py)
 - [Collision](http://www.codingwithruss.com/pygame/how-to-use-pygame-masks-for-pixel-perfect-collision/)
 - []()

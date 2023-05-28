@@ -1,4 +1,8 @@
 import pygame
+width = 1920
+height = 1080
+size = (width,height)
+screen = pygame.display.set_mode(size)
 class Hitbox(pygame.sprite.Sprite):
 	def __init__(self, color, width, height):
 		super().__init__()
@@ -8,6 +12,4 @@ class Hitbox(pygame.sprite.Sprite):
 class Health(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
-        self.no_health = 0
-        self.current_Health = 1000
-        self.max_health = 1000
+        self.current_Health = 100
