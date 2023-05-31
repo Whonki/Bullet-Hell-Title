@@ -27,7 +27,6 @@
 </details>
 
 <details>
-<details>
 <summary>FEATURES</summary>  
 - BULLET HELL OF PURE SUFFERING.
 - KILL THE BIG BAD EVIL GUY!
