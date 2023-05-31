@@ -4,7 +4,9 @@
 
 <details>
 <summary>DEV NOTES</summary>
-
+ALL OF MY RECORDED UPDATES ON THE GAME
+  
+  
 # (2023,05,30)
 - HEALTH FOR BOSS IS FINISHED!
   - BEST PART: NO CORNERS WERE CUT!
@@ -28,11 +30,12 @@
 
 <details>
 <summary>FEATURES</summary>  
+  ANY FEATURES I HAVE ADDED TO THE GAME ALREADY.
+  
 - BULLET HELL OF PURE SUFFERING.
 - KILL THE BIG BAD EVIL GUY!
 - (TOTALLY NOT STOLEN) MUSIC
 - TOTALLY NOT AN ABSOLUTE GIMMICK
-
 - Two separate health systems (One for Player, and one for boss!)
 - Shooting mechanics!
 - An actual boss you can fight! (get it that's the entire game)
@@ -43,6 +46,7 @@
 </details>
 <details>
 <summary>INSPIRAITONS</summary>
+  INSPIRATION.
 
 - This game takes inspiration from a multitude of games: 
   - The Binding of Isaac
@@ -57,6 +61,7 @@
 </details>
 <details>
 <summary>BORROWED CODE FROM</summary>
+  SOURCES THAT I USED TO HELP ME MAKE THE GAME AND GAIN A FURTHER UNDERSTANDING OF PROGRAMMING.
   
 - [Health System](https://github.com/clear-code-projects/ZeldaHearts/blob/master/hearts_progress.py), and [More Health](https://www.codepile.net/pile/XydlGQy1)
 - [Bullets](http://programarcadegames.com/python_examples/f.php?file=bullets_aimed.py)
