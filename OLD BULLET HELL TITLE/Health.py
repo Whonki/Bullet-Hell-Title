@@ -1,2 +1,0 @@
-class Boss_Health():
-    

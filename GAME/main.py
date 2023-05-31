@@ -1,4 +1,16 @@
 import pygame, player, boss, bullet
+
+"""
+
++================================================================+
++																 +
++			THIS IS THE MAIN PROGRAM FOR THE GAME.               +
++						PRESS RUN HERE.		                     +
++																 +
++																 +
++================================================================+
+
+"""
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 RED = (255, 0, 0)
@@ -25,10 +37,18 @@ clock = pygame.time.Clock()
 all_sprites = pygame.sprite.Group()
 bullets = pygame.sprite.Group()
 arms_sprites = pygame.sprite.Group()
+Health = pygame.sprite.GroupSingle(boss.HealthBar())
 
 Background = pygame.mixer.Sound("Music-Tsuki no Waltz.ogg")
 Background.play(-1)
+injured = pygame.mixer.Sound("injured sound effect.ogg")
+injured.set_volume(0.5)
+death = pygame.mixer.Sound("death.ogg")
+death.set_volume(0.5)
 
+#Image rendering
+Boss_image = pygame.image.load("BOSS HP.png").convert_alpha()
+Boss_image = pygame.transform.scale(Boss_image,(120,720))
 #Bosses
 Witherhorde = boss.Hitbox(GREEN, 300, 240)
 Witherhorde.x = 790
@@ -90,12 +110,6 @@ while not done:
 			#Shooting
 			if event.key == pygame.K_ESCAPE:
 				quit()
-			if event.key == pygame.K_UP:
-				Health.sprite.get_health()
-				Boss_Health.sprite.get_health(200)
-			if event.key == pygame.K_DOWN:
-				Health.sprite.get_damage()
-				Boss_Health.sprite.get_damage(200)
 		if event.type == pygame.MOUSEBUTTONDOWN:
 			pos = pygame.mouse.get_pos() 
 			mouse_x = pos[0]
@@ -136,9 +150,14 @@ while not done:
 			all_sprites.remove(Bullet)
 			Boss_Hits += 1
 			print(Boss_Hits)
-			if Boss_Hits == 20:
+			Health.sprite.damage(5)
+			injured.play()
+			if Boss_Hits == 10:
 				block_hit_list = pygame.sprite.spritecollide(Bullet, arms_sprites, True)
+				death.play()
 				Boss_Hits = 0
+				Health.sprite.damage(1000)
+				
  
         # Remove the Bullet if it flies up off the screen
 			if Bullet.rect.y < -10 or Bullet.rect.x < -10 or Bullet.rect.x > 1920 or Bullet.rect.y > 1080:
@@ -147,7 +166,11 @@ while not done:
 
 # --- Game logic should go her
 	screen.fill(BLACK)
-	#Boss + Player Health GUI.
+	#Boss Health GUI.
+	Health.draw(screen)
+	Health.update()
+	screen.blit(Boss_image,[200,200])
+
 	#Actual Health
 	pygame.draw.rect(screen,WHITE,(410,430, 1220,520),6)
 	all_sprites.draw(screen) 

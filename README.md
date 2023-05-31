@@ -1,7 +1,24 @@
 # The Witherhorde's Interdimensional Emporium
+## The full game will be made on a separate file, and will be made on Unity rather than Pygame :o)
+## Expect the game to be made eventually!
+
 <details>
-<summary>DEV NOTES (2023,05,19)</summary>
-  
+<summary>DEV NOTES</summary>
+
+# (2023,05,30)
+- HEALTH FOR BOSS IS FINISHED!
+  - BEST PART: NO CORNERS WERE CUT!
+    - please clap for me. 
+- health for Player will be added soon!
+
+# (2023,05,29)
+- Health is being worked on rn.
+
+# (2023,05,19)
+- Bullets added
+- Hitboxes for Arms are now visible
+
+# (2023,05,19)
 - I FINALLY MADE A COLLISION HD SYSTEM FOR THE ARMS AHA!!!!!!! (I'm losing my mind lol)
 - Music is added to the Boss Fight
 - No NPCs yet :o(
@@ -10,30 +27,20 @@
 </details>
 
 <details>
-<summary>OH GOD HOW DO I DOWNLOAD THIS???</summary>
-
-- It's a pygame file so downloading it and opening a .exe file won't work!
-- Gotta be asking yourself, "How do I Download this?"
-
-
-</details>
-
 <details>
 <summary>FEATURES</summary>  
-- Multitudes of bosses
-- ***WIP*** Friendship-oriented dating-sim experience! Make friends along the way with FOUR DIFFERENT PEOPLE! (Maybe a fifth?) 
-  - BUY NEW WEAPONS FROM FRIENDS YOU MAKE ALONG THE WAY!
-  - SO MANY GUNS!
-  - SWORDS!
-  - SWORD-GUNS!!!
-  - My brain crashed.
-- (HOPEFULLY) A BRUTAL BULLET HELL OF PAIN AND SUFFERING AND MISERY!!!!
-- Extremely cheesy storyline
-- A blood bath, killing friends you made, one by one until you're alone in a world where god died.
-- **IT'S SO F!%#@ING PINK!!!!!**
-- Art made by: 
-  - Me.
-  - I don't know who else because everyone else is busy :o(
+
+- BULLET HELL OF PURE SUFFERING.
+- KILL THE BIG BAD EVIL GUY!
+- (TOTALLY NOT STOLEN) MUSIC
+- TOTALLY NOT AN ABSOLUTE GIMMICK
+
+- Two separate health systems (One for Player, and one for boss!)
+- Shooting mechanics!
+- An actual boss you can fight! (get it that's the entire game)
+  - Multiple bullet patterns/Attacks!
+
+- Original art + Sprites made by me!
 
 </details>
 <details>
@@ -42,9 +49,7 @@
 - This game takes inspiration from a multitude of games: 
   - The Binding of Isaac
   - Enter the Gungeon
-  - OMORI
   - Undertale
-  - and partially from Doki Doki Literature Club.
 </details>
 <details>
 <summary>PURPOSE</summary>
@@ -55,8 +60,7 @@
 <details>
 <summary>BORROWED CODE FROM</summary>
   
-- [Health System](https://github.com/clear-code-projects/ZeldaHearts/blob/master/hearts_progress.py), and [other health](https://www.codepile.net/pile/XydlGQy1)
+- [Health System](https://github.com/clear-code-projects/ZeldaHearts/blob/master/hearts_progress.py), and [More Health](https://www.codepile.net/pile/XydlGQy1)
 - [Bullets](http://programarcadegames.com/python_examples/f.php?file=bullets_aimed.py)
-- [Collision](http://www.codingwithruss.com/pygame/how-to-use-pygame-masks-for-pixel-perfect-collision/)
-- []()
+- [Movement]()
 </details>

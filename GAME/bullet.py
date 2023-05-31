@@ -1,4 +1,15 @@
 import pygame,math
+
+"""
+
++================================================================+
++																 +
++	EVERYTHING INVOLVING THE BULLET CLASS IS INCLUDED HERE.		 +
++																 +
++																 +
++================================================================+
+
+"""
 PINK = (255, 0, 255)
 width = 1920
 height = 1080
@@ -54,6 +65,6 @@ class Bullets(pygame.sprite.Sprite):
         self.rect.y = int(self.floating_point_y)
         self.rect.x = int(self.floating_point_x)
  
-        # If the bullet flies of the screen, get rid of it.
+        # If the bullet flies off the screen, get rid of it.
         if self.rect.x < 0 or self.rect.x > width or self.rect.y < 0 or self.rect.y > height:
             self.kill()
