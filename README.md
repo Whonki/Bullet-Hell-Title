@@ -5,6 +5,14 @@
 <details>
 <summary>DEV NOTES</summary>
 
+# (2023,06,02)
+- Happy pride month!
+- Added smoother movement
+  - Recently found out you can also shoot while moving now, so whoopie!
+# (2023,06,01)
+  - Added titles.
+  - Health for player was added.
+
 # (2023,05,30)
 - HEALTH FOR BOSS IS FINISHED!
   - BEST PART: NO CORNERS WERE CUT!
@@ -26,7 +34,6 @@
 - WITHERHORDE BOSS SPRITES ARE POPPING UP BIT BY BIT!!!! (YIPEE)
 </details>
 
-<details>
 <details>
 <summary>FEATURES</summary>  
 - BULLET HELL OF PURE SUFFERING.
@@ -59,7 +66,8 @@
 <details>
 <summary>BORROWED CODE FROM</summary>
   
-- [Health System](https://github.com/clear-code-projects/ZeldaHearts/blob/master/hearts_progress.py), and [More Health](https://www.codepile.net/pile/XydlGQy1)
+- [Health](https://www.codepile.net/pile/XydlGQy1)
 - [Bullets](http://programarcadegames.com/python_examples/f.php?file=bullets_aimed.py)
-- [Movement]()
+- [Font used](https://www.fontspace.com/public-pixel-font-f72305)
+- [Movement](http://programarcadegames.com/python_examples/f.php?file=move_sprite_keyboard_smooth.py)
 </details>

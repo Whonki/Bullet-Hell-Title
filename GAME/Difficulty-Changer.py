@@ -18,5 +18,8 @@
 
                                                                 I HOPE FOR THE BEST, SO PLEASE GIVE ME TIME WHILE I FINISH THIS!
                                                                                                                     - WHONK.
-
+TO DO LIST:
+- MAKE HEALTH KITS FOR PLAYER
+- MAKE ATTACKS FOR BOSS
+- REPLACE CURRENT SPRITES/HITBOXES WITH ACTUAL SPRITES FOR BOSS.
 """
