@@ -41,7 +41,6 @@
 - KILL THE BIG BAD EVIL GUY!
 - (TOTALLY NOT STOLEN) MUSIC
 - TOTALLY NOT AN ABSOLUTE GIMMICK
-
 - Two separate health systems (One for Player, and one for boss!)
 - Shooting mechanics!
 - An actual boss you can fight! (get it that's the entire game)
@@ -52,6 +51,7 @@
 </details>
 <details>
 <summary>INSPIRAITONS</summary>
+  INSPIRATION.
 
 - This game takes inspiration from a multitude of games: 
   - The Binding of Isaac
@@ -66,6 +66,7 @@
 </details>
 <details>
 <summary>BORROWED CODE FROM</summary>
+  SOURCES THAT I USED TO HELP ME MAKE THE GAME AND GAIN A FURTHER UNDERSTANDING OF PROGRAMMING.
   
 - [Health](https://www.codepile.net/pile/XydlGQy1)
 - [Bullets](http://programarcadegames.com/python_examples/f.php?file=bullets_aimed.py)
