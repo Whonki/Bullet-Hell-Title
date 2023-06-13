@@ -51,7 +51,6 @@
 </details>
 <details>
 <summary>INSPIRAITONS</summary>
-  INSPIRATION.
 
 - This game takes inspiration from a multitude of games: 
   - The Binding of Isaac
@@ -66,7 +65,6 @@
 </details>
 <details>
 <summary>BORROWED CODE FROM</summary>
-  SOURCES THAT I USED TO HELP ME MAKE THE GAME AND GAIN A FURTHER UNDERSTANDING OF PROGRAMMING.
   
 - [Health](https://www.codepile.net/pile/XydlGQy1)
 - [Bullets](http://programarcadegames.com/python_examples/f.php?file=bullets_aimed.py)

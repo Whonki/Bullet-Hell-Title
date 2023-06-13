@@ -1,4 +1,4 @@
-import pygame
+import pygame, random, math
 
 """
 
@@ -47,35 +47,56 @@ class HealthBar(pygame.sprite.Sprite):
 	def basic_health(self):
 		pygame.draw.rect(screen,RED,(570,890,self.health / self.health_ratio,30))
 		pygame.draw.rect(screen,WHITE,(570,890,self.health_bar_length,30),4)
+	
+rain_list = []
+stars_list = []
+moon_list = []
+class Rain(pygame.sprite.Sprite):
+	def __init__(self):
+		super().__init__()
+		self.damage = 15
+		self.velocity = 65
+		self.image = pygame.Surface([10, 10])
+		self.image.fill(WHITE)
+		self.rect = self.image.get_rect()
+		for self.i in range(125):
+			self.x = random.randrange(0,width)
+			self.y = 0
+			rain_list.append([self.x,self.y])
+	def draw(self):
+		for self.i in range(len(rain_list)):
+			pygame.draw.circle(screen, WHITE, rain_list[self.i], 10)
+	
+	
 
-class Movement(pygame.sprite.Sprite):
-    """ The class is the player-controlled sprite. """
- 
-    # -- Methods
-    def __init__(self, x, y):
-        """Constructor function"""
-        # Call the parent's constructor
-        super().__init__()
- 
-        # Set height, width
-        self.image = pygame.Surface([15, 15])
- 
-        # Make our top-left corner the passed-in location.
-        self.rect = self.image.get_rect()
-        self.rect.x = x
-        self.rect.y = y
- 
-        # -- Attributes
-        # Set speed vector
-        self.change_x = 0
-        self.change_y = 0
- 
-    def changespeed(self, x, y):
-        """ Change the speed of the player"""
-        self.change_x += x
-        self.change_y += y
- 
-    def update(self):
-        """ Find a new position for the player"""
-        self.rect.x += self.change_x
-        self.rect.y += self.change_y
+class Stars(pygame.sprite.Sprite):
+	def __init__(self):
+		super().__init__()
+		self.damage = 35
+		self.velocity = 65
+		self.image = pygame.Surface([50, 50])
+		self.image.fill(WHITE)
+		self.rect = self.image.get_rect()
+		for self.i in range(75):
+			self.x = width
+			self.y = random.randrange(0, height)
+			rain_list.append([self.x,self.y])
+	def draw(self):
+		for self.i in range(len(rain_list)):
+			pygame.draw.circle(screen, WHITE, rain_list[self.i], 10)
+
+class Moon(pygame.sprite.Sprite):
+	def __init__(self):
+		super().__init__()
+		self.damage = 150
+		self.velocity = 30
+		self.image = pygame.Surface([100, 100])
+		self.image.fill(WHITE)
+		self.rect = self.image.get_rect()
+		for self.i in range(10):
+			self.x = random.randrange(1000,width)
+			self.y = height
+			rain_list.append([self.x,self.y])
+	def draw(self):
+		for self.i in range(len(rain_list)):
+			pygame.draw.circle(screen, WHITE, rain_list[self.i], 10)

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Bullet Hell Title",
+			"path": ".."
+		},
+		{
+			"name": "public-pixel-font",
+			"path": "../../Downloads/public-pixel-font"
+		}
+	],
+	"settings": {}
+}

@@ -19,7 +19,9 @@
                                                                 I HOPE FOR THE BEST, SO PLEASE GIVE ME TIME WHILE I FINISH THIS!
                                                                                                                     - WHONK.
 TO DO LIST:
-- MAKE HEALTH KITS FOR PLAYER
 - MAKE ATTACKS FOR BOSS
-- REPLACE CURRENT SPRITES/HITBOXES WITH ACTUAL SPRITES FOR BOSS.
+  - Star Rain (Star get launched in large radius) 1000 sided dice
+  - Enormous Stars (Stars get launched in large diameter, get thrown at player) 3000 sided dice
+  - Moon Launch (Moon gets launched at large radius) 5000 sided dice
+  - make a "For" statement (roll a 1000 sided dice) (Cooldown)
 """
