@@ -70,4 +70,5 @@
 - [Bullets](http://programarcadegames.com/python_examples/f.php?file=bullets_aimed.py)
 - [Font used](https://www.fontspace.com/public-pixel-font-f72305)
 - [Movement](http://programarcadegames.com/python_examples/f.php?file=move_sprite_keyboard_smooth.py)
+- [Simplistic Boss Mechanic used and screwed around with](http://programarcadegames.com/python_examples/f.php?file=animating_snow.py)
 </details>

@@ -13,7 +13,7 @@ import pygame,math
 PINK = (255, 0, 255)
 width = 1920
 height = 1080
-class Bullets(pygame.sprite.Sprite):
+class Fire(pygame.sprite.Sprite):
     """ This class represents the bullet. """
  
     def __init__(self, start_x, start_y, dest_x, dest_y):
@@ -25,7 +25,7 @@ class Bullets(pygame.sprite.Sprite):
         self.image.fill(PINK)
  
         self.rect = self.image.get_rect()
- 
+        
         # Move the bullet to our starting location
         self.rect.x = start_x
         self.rect.y = start_y
@@ -53,7 +53,3 @@ class Bullets(pygame.sprite.Sprite):
         # The rect.x and rect.y are converted to integers.
         self.rect.y = int(self.floating_point_y)
         self.rect.x = int(self.floating_point_x)
- 
-        # If the bullet flies off the screen, get rid of it.
-        if self.rect.x < 0 or self.rect.x > width or self.rect.y < 0 or self.rect.y > height:
-            self.kill()

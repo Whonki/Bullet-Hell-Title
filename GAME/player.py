@@ -13,6 +13,7 @@ width = 1920
 height = 1080
 RED = (255, 0, 0)
 WHITE = (255, 255, 255)
+PURPLE = (82,28,129)
 size = (width,height)
 screen = pygame.display.set_mode(size)
 class Hitbox(pygame.sprite.Sprite):
@@ -39,11 +40,19 @@ class HealthBar(pygame.sprite.Sprite):
 		if self.health < 0:
 			self.health = 0
 
+	def healing(self,amount):
+		if self.health > 0 and self.health < self.max_health:
+			self.health += amount
+			if self.health >= self.max_health:
+				self.health = self.max_health
+		if self.health < 0:
+			self.health = 0
+
 	def update(self):
 		self.basic_health()
 		
 	def basic_health(self):
-		pygame.draw.rect(screen,RED,(250,150,self.health / self.health_ratio,25))
+		pygame.draw.rect(screen,PURPLE,(250,150,self.health / self.health_ratio,25))
 		pygame.draw.rect(screen,WHITE,(250,150,self.health_bar_length,25),4)
 
 class Movement(pygame.sprite.Sprite):
